@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 7db1a22237deab94bba42738b37b721d
-AssetOrigin:
-  serializedVersion: 1
-  productId: 248340
-  packageName: Pet Cats Pixel Art Pack
-  packageVersion: 1.0.0
-  assetPath: Assets/Pet Cats pack/Sprites/Cat-3/Cat-3-Idle.png
-  uploadId: 578467
+guid: ba2c053c0c970c14e9564b86b08d156b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -55,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat-3-Idle_0
+      name: Cat-3-Run_0
       rect:
         serializedVersion: 2
         x: 0
@@ -145,14 +138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae881d714f728b54aae41251f0613a4f
-      internalID: 2122696235
+      spriteID: d93404abb343af5468efb29c155f2707
+      internalID: -1496835459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_1
+      name: Cat-3-Run_1
       rect:
         serializedVersion: 2
         x: 50
@@ -167,14 +160,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04f55a12f99569b4e890d20cf5bf45f8
-      internalID: 459831910
+      spriteID: 6e4b39e4438e27f4fa3df3408fe54fd7
+      internalID: -1438718943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_2
+      name: Cat-3-Run_2
       rect:
         serializedVersion: 2
         x: 100
@@ -189,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d823131a231db4f8033560f9447308
-      internalID: -1870148749
+      spriteID: 46a0b726308debc49abcc2f1196b6186
+      internalID: 504402059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_3
+      name: Cat-3-Run_3
       rect:
         serializedVersion: 2
         x: 150
@@ -211,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 545d8e64dd6d3ea4eb16ad2bd5ff14c6
-      internalID: -605733065
+      spriteID: 7b189e9dc950af544be1ae0aefb3a29f
+      internalID: -389805139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_4
+      name: Cat-3-Run_4
       rect:
         serializedVersion: 2
         x: 200
@@ -233,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 643b30c9cea83a84b8acbc59e3d16cd2
-      internalID: -1069178877
+      spriteID: 07d355bb6246c4747bc653e1b7bfffe6
+      internalID: -727953682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_5
+      name: Cat-3-Run_5
       rect:
         serializedVersion: 2
         x: 250
@@ -255,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b03dc51d99dc340a845b9ebf7189c5
-      internalID: 1305249244
+      spriteID: f7740d533fc2a2846bef7167d8816e81
+      internalID: 1829353395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_6
+      name: Cat-3-Run_6
       rect:
         serializedVersion: 2
         x: 300
@@ -277,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deebfaa4d8bd3034ab9768f543691771
-      internalID: 415501058
+      spriteID: 705e2ffccc68dac41a1a9c67e3d55ad1
+      internalID: 958113212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Idle_7
+      name: Cat-3-Run_7
       rect:
         serializedVersion: 2
         x: 350
@@ -299,52 +292,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c92352999bea74897f9a0159e4cf9f
-      internalID: -56973029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cat-3-Idle_8
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6ef7945e19b60540bc3920a88779544
-      internalID: -1322594064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Cat-3-Idle_9
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4d0b9195040e1a409be9009a2a82056
-      internalID: 1941566001
+      spriteID: 8cc3f0082d158074f8cf0bfb027d265c
+      internalID: -1521321031
       vertices: []
       indices: 
       edges: []
@@ -363,16 +312,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cat-3-Idle_0: 2122696235
-      Cat-3-Idle_1: 459831910
-      Cat-3-Idle_2: -1870148749
-      Cat-3-Idle_3: -605733065
-      Cat-3-Idle_4: -1069178877
-      Cat-3-Idle_5: 1305249244
-      Cat-3-Idle_6: 415501058
-      Cat-3-Idle_7: -56973029
-      Cat-3-Idle_8: -1322594064
-      Cat-3-Idle_9: 1941566001
+      Cat-3-Run_0: -1496835459
+      Cat-3-Run_1: -1438718943
+      Cat-3-Run_2: 504402059
+      Cat-3-Run_3: -389805139
+      Cat-3-Run_4: -727953682
+      Cat-3-Run_5: 1829353395
+      Cat-3-Run_6: 958113212
+      Cat-3-Run_7: -1521321031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

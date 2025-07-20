@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 0f81ef3f261eb3042b0a40f92dda9beb
+guid: 9833c36d769c80c4fba4d1f51fef21a4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,8 +64,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -74,9 +77,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -86,9 +90,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -98,13 +103,27 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cat-3-Run_0
+      name: Cat-3-Laying_0
       rect:
         serializedVersion: 2
         x: 0
@@ -114,18 +133,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93404abb343af5468efb29c155f2707
-      internalID: -1496835459
+      spriteID: 602d52de89597ac4298e8a941c8c3034
+      internalID: 62020125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_1
+      name: Cat-3-Laying_1
       rect:
         serializedVersion: 2
         x: 50
@@ -135,18 +155,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4b39e4438e27f4fa3df3408fe54fd7
-      internalID: -1438718943
+      spriteID: 9f070769f93f1af469a161505a3095ab
+      internalID: -340463823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_2
+      name: Cat-3-Laying_2
       rect:
         serializedVersion: 2
         x: 100
@@ -156,18 +177,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46a0b726308debc49abcc2f1196b6186
-      internalID: 504402059
+      spriteID: cec5bee7c1f8ced4687de960464008de
+      internalID: -1196507446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_3
+      name: Cat-3-Laying_3
       rect:
         serializedVersion: 2
         x: 150
@@ -177,18 +199,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b189e9dc950af544be1ae0aefb3a29f
-      internalID: -389805139
+      spriteID: 7453ceb5bf3850a48a3433747eb4bef1
+      internalID: 127836623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_4
+      name: Cat-3-Laying_4
       rect:
         serializedVersion: 2
         x: 200
@@ -198,18 +221,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07d355bb6246c4747bc653e1b7bfffe6
-      internalID: -727953682
+      spriteID: 900782d3c7d0c284ba678102ddae24d0
+      internalID: 709462171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_5
+      name: Cat-3-Laying_5
       rect:
         serializedVersion: 2
         x: 250
@@ -219,18 +243,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7740d533fc2a2846bef7167d8816e81
-      internalID: 1829353395
+      spriteID: 613f052f532b8034cb2b1d60f0e0988f
+      internalID: 2099145336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_6
+      name: Cat-3-Laying_6
       rect:
         serializedVersion: 2
         x: 300
@@ -240,18 +265,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 705e2ffccc68dac41a1a9c67e3d55ad1
-      internalID: 958113212
+      spriteID: 0edd5fd81933f3b418d53d153041d391
+      internalID: 1558819343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cat-3-Run_7
+      name: Cat-3-Laying_7
       rect:
         serializedVersion: 2
         x: 350
@@ -261,17 +287,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cc3f0082d158074f8cf0bfb027d265c
-      internalID: -1521321031
+      spriteID: dc2604079144cc14695af612edfb1fd4
+      internalID: -391436112
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -281,25 +309,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      Cat-3-Run_3: -389805139
-      Cat-3-Run_6: 958113212
-      Cat-3-Run_2: 504402059
-      Cat-3-Run_5: 1829353395
-      Cat-3-Run_7: -1521321031
-      Cat-3-Run_1: -1438718943
-      Cat-3-Run_0: -1496835459
-      Cat-3-Run_4: -727953682
-  spritePackingTag: 
+      Cat-3-Laying_0: 62020125
+      Cat-3-Laying_1: -340463823
+      Cat-3-Laying_2: -1196507446
+      Cat-3-Laying_3: 127836623
+      Cat-3-Laying_4: 709462171
+      Cat-3-Laying_5: 2099145336
+      Cat-3-Laying_6: 1558819343
+      Cat-3-Laying_7: -391436112
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 248340
-  packageName: Pet Cats Pixel Art Pack
-  packageVersion: 1.0.0
-  assetPath: Assets/Pet Cats pack/Sprites/Cat-3/Cat-3-Run.png
-  uploadId: 578467
