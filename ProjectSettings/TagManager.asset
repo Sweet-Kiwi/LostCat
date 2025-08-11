@@ -41,5 +41,20 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 737379815
+    locked: 0
+  - name: BG_Trees
+    uniqueID: 2576502099
+    locked: 0
+  - name: Mid_Trees
+    uniqueID: 180392273
+    locked: 0
+  - name: Ground
+    uniqueID: 2629427047
+    locked: 0
+  - name: FG_Plants
+    uniqueID: 2238745151
+    locked: 0
   m_RenderingLayers:
   - Default
