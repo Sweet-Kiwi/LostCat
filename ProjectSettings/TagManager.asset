@@ -53,6 +53,9 @@ TagManager:
   - name: Ground
     uniqueID: 2629427047
     locked: 0
+  - name: Mid_FG
+    uniqueID: 1642481739
+    locked: 0
   - name: FG_Plants
     uniqueID: 2238745151
     locked: 0
