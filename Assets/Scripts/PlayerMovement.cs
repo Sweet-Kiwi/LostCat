@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(new Vector3(movement.x, 0f, 0f));
 
         
-        animator.SetBool("isRunning", input != 0);
+        animator.SetBool("IsRunning", input != 0);
         Debug.Log("IsRunning = " + (input != 0));
         
         if (input < 0)
