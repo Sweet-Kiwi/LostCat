@@ -154,6 +154,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  jumpForce: 4
+  spriteRenderer: {fileID: 88996512}
 --- !u!61 &88996510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -216,7 +218,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 53d2fa78216f04146a95939725fd3d52, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5439,7 +5441,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 2.8125
+  orthographic size: 5.625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -7225,7 +7227,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 3.0699925
+    OrthographicSize: 3.91
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -7491,7 +7493,7 @@ GameObject:
   - component: {fileID: 900908082}
   m_Layer: 3
   m_Name: MP_Visual
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -26108,7 +26110,7 @@ GameObject:
   - component: {fileID: 1220332592}
   m_Layer: 0
   m_Name: Mid_Trees_solid
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26868,7 +26870,7 @@ GameObject:
   - component: {fileID: 1861163992}
   m_Layer: 3
   m_Name: MP_COLLIDER_SOLID
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
