@@ -1,10 +1,23 @@
 fileFormatVersion: 2
-guid: f464989c415f2b84f9fa4c14b95e09bb
+guid: 3c112a44cc7dc7a468f4d132c2e7611c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 155360
+  packageName: Pixel Adventure 1
+  packageVersion: 1.0
+  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Fire/On (16x32).png
+  uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1915776564401465818
-    second: Fish_0
+      213: -4039912110816036059
+    second: On (16x32)_0
+  - first:
+      213: 6853643782822115200
+    second: On (16x32)_1
+  - first:
+      213: -3538277728090221592
+    second: On (16x32)_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,16 +79,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -88,7 +101,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,7 +114,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +126,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fish_0
+      name: On (16x32)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 7
-        width: 32
-        height: 20
+        y: 0
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62615d96d5bc965e0800000000000000
-      internalID: -1915776564401465818
+      spriteID: 09e4fd137c9d2644fa37a5e8f1e9f748
+      internalID: -4039912110816036059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On (16x32)_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69aa87246b5b3846b23589cce3db583
+      internalID: 6853643782822115200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On (16x32)_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bb27f3678a51d44bb0cf1456d2057b
+      internalID: -3538277728090221592
       vertices: []
       indices: 
       edges: []
@@ -138,7 +195,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +205,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fish_0: -1915776564401465818
+      On (16x32)_0: -4039912110816036059
+      On (16x32)_1: 6853643782822115200
+      On (16x32)_2: -3538277728090221592
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
