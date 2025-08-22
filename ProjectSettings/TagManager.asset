@@ -51,6 +51,9 @@ TagManager:
   - name: BG_Trees
     uniqueID: 2576502099
     locked: 0
+  - name: BG_plants
+    uniqueID: 2005146141
+    locked: 0
   - name: Mid_Trees
     uniqueID: 180392273
     locked: 0

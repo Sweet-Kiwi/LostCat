@@ -1964,7 +1964,7 @@ GameObject:
   - component: {fileID: 2891820953661488757}
   - component: {fileID: 7194501670110754872}
   m_Layer: 0
-  m_Name: Rectangular Palette
+  m_Name: Game Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
