@@ -8,6 +8,7 @@ TagManager:
   - Collectible
   - Flag
   - Hazard
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
