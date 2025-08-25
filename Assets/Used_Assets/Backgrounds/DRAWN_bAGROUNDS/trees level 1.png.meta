@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      trees level 1_0: 2241037013429657169
+      trees level 1_1: 1609497061265720145
+      trees level 1_10: -7232312498162632954
+      trees level 1_11: 2028727243217685831
+      trees level 1_2: -7356885746330382795
+      trees level 1_3: 3530682586655541334
+      trees level 1_4: 2924300801914240332
+      trees level 1_5: -5271122123525251695
+      trees level 1_6: -1683360979574658124
+      trees level 1_7: 7228782559563832009
+      trees level 1_8: -2420660913483735710
+      trees level 1_9: -5203677647963394051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
