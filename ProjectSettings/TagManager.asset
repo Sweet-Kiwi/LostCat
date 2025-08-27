@@ -67,5 +67,8 @@ TagManager:
   - name: FG_Plants
     uniqueID: 2238745151
     locked: 0
+  - name: FG_Decore
+    uniqueID: 794790789
+    locked: 0
   m_RenderingLayers:
   - Default
