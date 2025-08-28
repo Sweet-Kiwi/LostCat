@@ -32,16 +32,18 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsRunning", input != 0);
 
         // Flip player + particles
-        if (input < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-            dustParticles.transform.localPosition = new Vector3(-particlesStartPos.x, particlesStartPos.y, particlesStartPos.z);
-        }
-        else if (input > 0)
-        {
-            transform.localScale = new Vector3(1, 1, 1);
-            dustParticles.transform.localPosition = particlesStartPos;
-        }
+        // Flip sprite
+        if (input < 0)      transform.localScale = new Vector3(-1, 1, 1);
+        else if (input > 0) transform.localScale = new Vector3( 1, 1, 1);
+
+// Always put dust BEHIND the move direction
+        float behindX = -Mathf.Abs(particlesStartPos.x); // behind when facing/moving right
+        Vector3 posRight = new Vector3(behindX,              particlesStartPos.y, particlesStartPos.z);
+        Vector3 posLeft  = new Vector3(-behindX,             particlesStartPos.y, particlesStartPos.z);
+
+        if (input > 0)      dustParticles.transform.localPosition = posRight; // moving right → dust to the left
+        else if (input < 0) dustParticles.transform.localPosition = posLeft;  // moving left  → dust to the right
+
 
         // Handle dust particles (only play when moving on ground)
         if (isGrounded && input != 0)
