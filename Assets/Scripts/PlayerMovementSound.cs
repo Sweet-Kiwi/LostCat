@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class PlayerMovementSound : MonoBehaviour
 {
-    public AudioSource moveAudio;   // Assign the AudioSource with your sound
-    public float moveThreshold = 0.1f; // Small threshold to detect movement
+    public AudioSource moveAudio;   // Assign the AudioSource
+    public float moveThreshold = 0.1f; // Movement threshold
 
-    private Rigidbody2D rb; // Assuming 2D player movement
+    private Rigidbody2D rb;
 
     void Start()
     {
@@ -14,8 +14,10 @@ public class PlayerMovementSound : MonoBehaviour
 
     void Update()
     {
-        // Check if player is moving (using new API)
-        if (rb.linearVelocity.magnitude > moveThreshold)
+        bool isMoving = rb.linearVelocity.magnitude > moveThreshold;
+        bool isJumping = Mathf.Abs(rb.linearVelocity.y) > 0.1f;
+
+        if (isMoving && !isJumping)
         {
             if (!moveAudio.isPlaying)
                 moveAudio.Play();
@@ -27,6 +29,7 @@ public class PlayerMovementSound : MonoBehaviour
         }
     }
 }
+
 
 
 
