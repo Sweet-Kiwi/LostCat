@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 158455873}
   - component: {fileID: 158455872}
   - component: {fileID: 158455871}
+  - component: {fileID: 158455874}
   m_Layer: 0
   m_Name: House 1_0
   m_TagString: Flag
@@ -368,6 +369,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &158455874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158455869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baab32807b3a13b4a8201c9185d3112b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNameOverride: 
 --- !u!1001 &183533392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -819,14 +833,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.056511056
-    width: 1
-    height: 0.8845209
+    y: 0.17083333
+    width: 0.32578126
+    height: 0.25
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.625
+  orthographic size: 2.8125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
