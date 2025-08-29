@@ -680,14 +680,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1
-    height: 1
+    y: -0.18750001
+    width: 0
+    height: 0.37500003
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 3.75
+  orthographic size: 2.8125
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -25464,7 +25464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8098093333307490399, guid: ef856ac637399364b9c0364a1358edb3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 189.44756
+      value: 188.688
       objectReference: {fileID: 0}
     - target: {fileID: 8098093333307490399, guid: ef856ac637399364b9c0364a1358edb3, type: 3}
       propertyPath: m_LocalPosition.y
